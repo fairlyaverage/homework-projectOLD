@@ -85,3 +85,4 @@ production:
   database: homework_project_production
   # username: homework_project
   # password: <%= ENV['HOMEWORK_PROJECT_DATABASE_PASSWORD'] %>
+
