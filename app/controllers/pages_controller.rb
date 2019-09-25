@@ -12,4 +12,10 @@ class PagesController < ApplicationController
         end
     end
 
+    def question
+        respond_to do |format|
+            format.html { render :question }
+        end
+    end
+
 end
